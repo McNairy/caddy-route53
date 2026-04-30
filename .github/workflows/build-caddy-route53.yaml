@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: CADDY_ROUTE53
+    environment: CADDY
     steps:
       - name: Checkout
         uses: actions/checkout@v6 # Latest major version
